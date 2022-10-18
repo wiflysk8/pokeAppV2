@@ -18,7 +18,7 @@ const getOnePokemon = async (url) => {
       id: result.id,
       types: result.types.map((element) => element.type.name),
       image: result.sprites.other["official-artwork"].front_default,
-      backImg: result.sprites.back_default,
+      backImg: result.sprites.back_shiny,
       abilities: result.abilities[0].ability.name,
       weight: result.weight,
       height: result.height,

@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Pokemon";
+  src: url(./assets/fonts/PokemonHollow.ttf);
+  font-weight: solid;
+}
+
+@font-face {
+  font-family: "pokemonSolid";
+  src: url(./assets/fonts/PokemonSolid.ttf);
+  font-weight: solid;
+}
+
 body {
   background-image: url("assets/gradient2.png");
   background-repeat: no-repeat;
@@ -42,7 +54,7 @@ p {
   text-transform: uppercase;
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 60px;
+  font-family: Pokemon;
 }
 .card-subtitle {
   font-weight: lighter;
