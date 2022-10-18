@@ -177,6 +177,16 @@ const renderPokemonCard = (poke) => {
       flipCardFront$$.style.backgroundImage = "url('./assets/ghost1.png')";
       flipCardBack$$.style.backgroundImage = "url('./assets/ghost1.png')";
       break;
+
+    case "ice":
+      flipCardFront$$.style.backgroundImage = "url('./assets/ice.png')";
+      flipCardBack$$.style.backgroundImage = "url('./assets/ice.png')";
+      break;
+
+    case "dragon":
+      flipCardFront$$.style.backgroundImage = "url('./assets/dragon.png')";
+      flipCardBack$$.style.backgroundImage = "url('./assets/dragon.png')";
+      break;
   }
 
   pokedex$$.appendChild(flipCard$$);
